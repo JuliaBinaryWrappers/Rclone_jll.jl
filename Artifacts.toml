@@ -1,143 +1,103 @@
 [[Rclone]]
 arch = "aarch64"
-git-tree-sha1 = "a2d9cf77cecbd5dd146320fef1a438d216ff1122"
+git-tree-sha1 = "928e82b245a0913dc9095e9328e84e8eb4469923"
 os = "macos"
 
     [[Rclone.download]]
-    sha256 = "e7c9d53eb0db376f1e11e0f4de8e54e42b4650eb211e4c465ab6e3a3cf8a68ae"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "8f53e2bb0c65524037f162623a1a1f95f29559d2855db79af788fd95f81762ae"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.aarch64-apple-darwin.tar.gz"
 [[Rclone]]
 arch = "aarch64"
-git-tree-sha1 = "930c53afaba9abee75f31ff97a28e3d015c7c513"
+git-tree-sha1 = "0388c65186e2b80ff6d2cf66fb517ddabf424212"
 libc = "glibc"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "dc24f99a46bfc2ac788f60ee3ec395b3fe783509e1a435440c25728788c77d7c"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "46d18170ebc8d2e6f311b88f666b2f80bc4018dd2d9ccae1eaeb282a0e03bd4a"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.aarch64-linux-gnu.tar.gz"
 [[Rclone]]
 arch = "aarch64"
-git-tree-sha1 = "930c53afaba9abee75f31ff97a28e3d015c7c513"
+git-tree-sha1 = "0388c65186e2b80ff6d2cf66fb517ddabf424212"
 libc = "musl"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "dc24f99a46bfc2ac788f60ee3ec395b3fe783509e1a435440c25728788c77d7c"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.aarch64-linux-musl.tar.gz"
+    sha256 = "46d18170ebc8d2e6f311b88f666b2f80bc4018dd2d9ccae1eaeb282a0e03bd4a"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.aarch64-linux-musl.tar.gz"
 [[Rclone]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "58d4bcbcd59119be34cfb0c75a2a20bf943ca32a"
+arch = "i686"
+git-tree-sha1 = "1dbc74a008161bead827f6d0dea2f19bba5985eb"
 libc = "glibc"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "30cc45fc52c46c0613fa2ed3f5cd8f893523d6581a7564166d3b77a36e06c7f2"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "0d809241d478b0b4efdaa8f121d0f4e2384dc07faacfc7cd9fa249a64d5622f1"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.i686-linux-gnu.tar.gz"
 [[Rclone]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "58d4bcbcd59119be34cfb0c75a2a20bf943ca32a"
+arch = "i686"
+git-tree-sha1 = "1dbc74a008161bead827f6d0dea2f19bba5985eb"
 libc = "musl"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "30cc45fc52c46c0613fa2ed3f5cd8f893523d6581a7564166d3b77a36e06c7f2"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.armv6l-linux-musleabihf.tar.gz"
-[[Rclone]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d4ba3b6ddc5c9f71bbc39ea69f3c2e9272980b8d"
-libc = "glibc"
-os = "linux"
-
-    [[Rclone.download]]
-    sha256 = "e862bd28b8337d70ce8dcb2c962802972ad3b711e45ee40cb5ce079bc13a9544"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.armv7l-linux-gnueabihf.tar.gz"
-[[Rclone]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "d4ba3b6ddc5c9f71bbc39ea69f3c2e9272980b8d"
-libc = "musl"
-os = "linux"
-
-    [[Rclone.download]]
-    sha256 = "e862bd28b8337d70ce8dcb2c962802972ad3b711e45ee40cb5ce079bc13a9544"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "0d809241d478b0b4efdaa8f121d0f4e2384dc07faacfc7cd9fa249a64d5622f1"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.i686-linux-musl.tar.gz"
 [[Rclone]]
 arch = "i686"
-git-tree-sha1 = "05500eed0b238cae5b9864c82d1f632d5ee20d85"
-libc = "glibc"
-os = "linux"
-
-    [[Rclone.download]]
-    sha256 = "f6e2f316313b34a60c6d819c00309854743c5762688d78b5fbfba6c740a90261"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.i686-linux-gnu.tar.gz"
-[[Rclone]]
-arch = "i686"
-git-tree-sha1 = "05500eed0b238cae5b9864c82d1f632d5ee20d85"
-libc = "musl"
-os = "linux"
-
-    [[Rclone.download]]
-    sha256 = "f6e2f316313b34a60c6d819c00309854743c5762688d78b5fbfba6c740a90261"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.i686-linux-musl.tar.gz"
-[[Rclone]]
-arch = "i686"
-git-tree-sha1 = "27016aaab6db72d9c4acef386bf0a435baef1807"
+git-tree-sha1 = "d9451e48f84e7a5ca3c2f3285d8eebbc6eb13d1a"
 os = "windows"
 
     [[Rclone.download]]
-    sha256 = "06811a95154ad7ae95d6a032c1491eb9a5dcbcb8e0a60872146408af9f791cb5"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.i686-w64-mingw32.tar.gz"
+    sha256 = "225901b204e8459e29cb4f606afe7f73abc1bd5f0f1dbeace91cf5b69db69fa1"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.i686-w64-mingw32.tar.gz"
 [[Rclone]]
 arch = "powerpc64le"
-git-tree-sha1 = "c815b839b63692b55c7bf09ff081dc2fc930575c"
+git-tree-sha1 = "8572892371d74c7973e5ca08bc9e050904b8895c"
 libc = "glibc"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "f182d51562a700ac0ccacd9b507f4281d8072fdf168f4f2b8e508f9f1b7dee78"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "35f34db9d65beaa7673798f45478b61e6e84c5eb00d313bd4b374c3019c7f8fc"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.powerpc64le-linux-gnu.tar.gz"
 [[Rclone]]
 arch = "x86_64"
-git-tree-sha1 = "d342c61e291cea05f3d8a97fb392df5cc7ba465a"
+git-tree-sha1 = "c217b416e2a0fc1ca8fa1f72dbe5f8f2589c2b83"
 os = "macos"
 
     [[Rclone.download]]
-    sha256 = "49b95d29870f8fcb9b395ef28ad616fa3f6e078f9d94d8298cb6edb19e11bac0"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "b245913068e73700e7e3c292de56c9343536bba049cb968569f5bb4ef45c72a9"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.x86_64-apple-darwin.tar.gz"
 [[Rclone]]
 arch = "x86_64"
-git-tree-sha1 = "5466326a19f68175562065c97a0b7773a768b37b"
+git-tree-sha1 = "dc095f672fdb8be12626522363628f8a97fb492f"
 libc = "glibc"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "8a46504b2da73b4ec51d723022aaa5483c1cd13520286caad3954cccedef0d58"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "b70470fd82b25613bc4d5bee2a0244a4cc00649cabd3d16e6e7aa23c8bd2bf1a"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.x86_64-linux-gnu.tar.gz"
 [[Rclone]]
 arch = "x86_64"
-git-tree-sha1 = "8abebf460cb18f4bb0e76f8598426026f1b95f4a"
+git-tree-sha1 = "39272d85f2b0e9ccb01df86e2055dd7fb7d35686"
 libc = "musl"
 os = "linux"
 
     [[Rclone.download]]
-    sha256 = "5c47c46819cce9eaf6658c886df005ecc5e90673d331818ee538f8109cf8afb6"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.x86_64-linux-musl.tar.gz"
+    sha256 = "c91d587c9c0db7c3d8c76f5480a374ee5b08b93968a1033514a19984d953b5d3"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.x86_64-linux-musl.tar.gz"
 [[Rclone]]
 arch = "x86_64"
-git-tree-sha1 = "11329e0d6e6ddf543a8fb7c2dc06bfecc140c4de"
+git-tree-sha1 = "95ca8d94a19e336bc8605e2c87b236774bdb902b"
 os = "freebsd"
 
     [[Rclone.download]]
-    sha256 = "d36ab0400ece9cbc4a599a3fd831e1e46a5ed5357ac5b618141fd85153319ba7"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "d7e86b09edcf6fdfc0eb477d13f35ab202d843461272237a31ff65502686dc80"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.x86_64-unknown-freebsd.tar.gz"
 [[Rclone]]
 arch = "x86_64"
-git-tree-sha1 = "aa29aafd9707242b881bf18fb24073201b47cfbe"
+git-tree-sha1 = "d21a38691ac60d1332a1062fc330b6fe4a6bb23a"
 os = "windows"
 
     [[Rclone.download]]
-    sha256 = "03a2d7082aaaab3217629cd44b2c5fc3fb544ee112031a686b31c608f948ec14"
-    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.63.1+0/Rclone.v1.63.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "ce1acd79cdf196559342dec042cb6970e015d2f1ae5c697c5ac7a5c4364f777b"
+    url = "https://github.com/JuliaBinaryWrappers/Rclone_jll.jl/releases/download/Rclone-v1.65.2+0/Rclone.v1.65.2.x86_64-w64-mingw32.tar.gz"

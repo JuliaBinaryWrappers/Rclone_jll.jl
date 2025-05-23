@@ -1,6 +1,6 @@
 name = "Rclone_jll"
 uuid = "d3707c4a-c138-5086-90bb-c65de4e50315"
-version = "1.69.2+0"
+version = "1.69.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
